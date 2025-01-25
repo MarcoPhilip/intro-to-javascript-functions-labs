@@ -254,7 +254,6 @@ Example: calculateGrade(100) should return A.
 
 Complete the exercise in the space below:
 */
-
 const calculateGrade = function(grade) {
     if (grade >= 90) {
         return "A";
