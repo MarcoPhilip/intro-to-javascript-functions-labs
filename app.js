@@ -13,7 +13,8 @@ Exercise 1 has been completed for you:
 const maxOfTwoNumbers = (x, y) => {
     if (x >= y) {
         return x;
-    } else {
+    } 
+    else {
         return y;
     }
 }
@@ -34,7 +35,8 @@ Complete the exercise in the space below:
 const isAdult = function(age) {
     if (age >= 18) {
         return "Adult";
-    } else {
+    } 
+    else {
         return "Minor";
     }
     }
@@ -292,9 +294,9 @@ Complete the exercise in the space below:
 */
 
 const createUsername = function(first,last) {
-let firstname = first.slice(0, 3);
-let lastname = last.slice(0, 3);
-let total = first.length + last.length;
+    let firstname = first.slice(0, 3);
+    let lastname = last.slice(0, 3);
+    let total = first.length + last.length;
     return firstname + lastname + total;
 }
 
@@ -310,6 +312,8 @@ This function should return the count of arguments passed to it when called.
 Complete the exercise in the space below:
 */
 
-
+function numArgs() {
+   return arguments.length;
+}
 
 console.log('Exercise 12 Result:', numArgs(1, 2, 3, 4));
